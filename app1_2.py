@@ -8,6 +8,10 @@ Systemizing everything that repeats and whatnot
 """
 print(text)
 current_time = time.strftime("%d/%b/%Y_%H:%M:%S")
+
+print("The time is below: ")
+print("It is: ", current_time)
+
 print("it is", current_time)
 while True:
     #Get user input & strip space chars
