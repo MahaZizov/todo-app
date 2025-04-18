@@ -1,15 +1,13 @@
-wash
-clean
+play gamesclean
 nimportequoi
 boop
 drink
 review article
-watch something
+listen to music
 sleep even better
-check the list
-paper fight
+doortodoorfight rival galaxies
 paint the pitcher
 win the game
-tomato
-def functions
+potatodef functions
 wash dishes
+start workingspaghetti
