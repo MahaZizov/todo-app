@@ -12,3 +12,4 @@ paint the pitcher
 win the game
 tomato
 def functions
+wash dishes
