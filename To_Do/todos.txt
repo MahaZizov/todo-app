@@ -1,7 +1,5 @@
-play gamesclean
 nimportequoi
-boop
-drink
+edit item
 review article
 listen to music
 sleep even better
@@ -11,3 +9,5 @@ win the game
 potatodef functions
 wash dishes
 start workingspaghetti
+try something else
+
