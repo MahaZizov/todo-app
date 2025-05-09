@@ -1,7 +1,6 @@
 nimportequoi
 edit item
-review article
-listen to music
+review articleslisten to music
 sleep even better
 doortodoorfight rival galaxies
 paint the pitcher
@@ -10,4 +9,4 @@ potatodef functions
 wash dishes
 start workingspaghetti
 try something else
-
+running
