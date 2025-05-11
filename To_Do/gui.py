@@ -1,15 +1,31 @@
+import sys
+
 import functions
 
 import FreeSimpleGUI as sg
 
 import time
+#in terminal set-executionpolicy remotesigned -scope currentuser
+#then instal pyinstaller to create an exe file
+#terminal go to cd "to_do"
+#terminal: pyinstaller --onefile --clean gui.py --add-data "add.png;." --log-level=DEBUG
+import os
+
+if not os.path.exists("todos.txt"):
+    with open("todos.txt", "w") as file:
+        pass
+
+def resource_path(relative_path):
+    """Get absolute path to resource, works for PyInstaller or noraml script"""
+    base_path = getattr(sys, '_MEIPASS', os.path.abspath("."))
+    return os.path.join(base_path, relative_path)
 
 sg.theme("Dark")
 
 clock = sg.Text('', key='clock')
 label = sg.Text("Type in a to-do")
 input_box = sg.InputText(tooltip="Enter a to-do", key="todo")
-add_button = sg.Button(size=50, image_source="add.png", mouseover_colors="#D2B48C",
+add_button = sg.Button(size=50, image_source=resource_path("add.png"), mouseover_colors="#D2B48C",
                        tooltip="Add Todo", key="Add")
 list_box = sg.Listbox(values=functions.get_todos(), key="todos",
                       enable_events=True, size=[45, 10])
